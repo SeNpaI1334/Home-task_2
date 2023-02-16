@@ -1,15 +1,17 @@
 const DESCRIPTION = 'Введите число';
-const result = (mafirstNum, mid, min) => alert(`${mafirstNum}, ${mid}, ${min}`)
+let firstNum = +prompt(DESCRIPTION)
+let secondNum = +prompt(DESCRIPTION)
+let thirdNum = +prompt(DESCRIPTION)
+
 /*   function result(mafirstNum, mid, min) {
       return alert(`${mafirstNum}, ${mid}, ${min}`) 
   } */
 
-/*    let result = function(mafirstNum, mid, min) {
+/*    const result = function(mafirstNum, mid, min) {
        return alert(`${mafirstNum}, ${mid}, ${min}`) 
    } */
-let firstNum = +prompt(DESCRIPTION)
-let secondNum = +prompt(DESCRIPTION)
-let thirdNum = +prompt(DESCRIPTION)
+
+const result = (firstNum, mid, min) => alert(`${mafirstNum}, ${mid}, ${min}`)
 
 if (firstNum >= secondNum && firstNum >= thirdNum && secondNum >= thirdNum) {
     result(firstNum, secondNum, thirdNum)
