@@ -1,3 +1,5 @@
 # Home-task-2
 
-Demo[https://senpai1334.github.io/Home-task_2/]
+С клавиатуры вводится три числа. Нужно вывести на экран их по порядку от большего к меньшему.
+
+[Demo](https://senpai1334.github.io/Home-task_2/)
